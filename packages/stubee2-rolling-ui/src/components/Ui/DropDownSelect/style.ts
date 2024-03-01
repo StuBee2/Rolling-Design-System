@@ -1,4 +1,5 @@
 import styled, { CSSObject } from "styled-components";
+import { Flex } from "../../Layout";
 
 export const DropDownSelectContainer = styled.div<{
   width: string;
@@ -16,10 +17,11 @@ export const DropDownSelectWrapper = styled.div<{
   width: 100% !important;
   height: ${({ height }) => height} !important;
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  column-gap: 10px;
+  ${Flex({
+    alignItems: "center",
+    justifyContent: "space-between",
+    columnGap: "10px",
+  })}
 
   background-color: #fff;
   border-radius: 6px;
@@ -42,8 +44,7 @@ export const DropDownSelectWrapper = styled.div<{
 `;
 
 export const DropDownSelectIcon = styled.div<{ isShowingItemList: boolean }>`
-  display: flex;
-  align-items: center;
+  ${Flex({ alignItems: "center" })}
   transition: all 0.4s ease;
   transform: ${({ isShowingItemList }) =>
     !isShowingItemList && "rotate(180deg)"};
@@ -61,8 +62,7 @@ export const DropDownSelectItemContainer = styled.div<{
 
   position: absolute;
   top: ${({ height }) => height};
-  display: flex;
-  flex-direction: column;
+  ${Flex({ flexDirection: "column" })}
 
   margin-top: 7px;
   z-index: 3;
@@ -78,7 +78,6 @@ export const DropDownSelectItemContainer = styled.div<{
 export const DropDownSelectItemWrapper = styled.div`
   width: 100%;
   height: 100%;
-  background: red;
 
   display: flex;
   flex-wrap: wrap;
@@ -100,9 +99,7 @@ export const DropDownSelectItem = styled.div<{
 
   color: #000;
   cursor: pointer;
-
-  display: flex;
-  align-items: center;
+  ${Flex({ alignItems: "center" })}
 
   p {
     padding-left: 20px;

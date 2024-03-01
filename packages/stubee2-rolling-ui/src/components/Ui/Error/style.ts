@@ -1,9 +1,8 @@
 import styled from "styled-components";
+import { Flex } from "../../Layout";
 
 export const ErrorContainer = styled.div`
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
+  ${Flex({ alignItems: "center", columnGap: "5px" })}
   img {
     width: 16px;
     height: 16px;

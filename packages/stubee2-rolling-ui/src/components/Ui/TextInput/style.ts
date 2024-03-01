@@ -1,4 +1,5 @@
 import styled, { CSSObject } from "styled-components";
+import { Flex } from "../../Layout";
 
 export const TextInputBar = styled.input<{
   customStyle?: CSSObject;
@@ -18,9 +19,7 @@ export const TextInputBar = styled.input<{
 `;
 
 export const TextInputContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  row-gap: 5px;
+  ${Flex({ flexDirection: "column", rowGap: "5px" })}
 `;
 
 export const ErrorText = styled.p`
