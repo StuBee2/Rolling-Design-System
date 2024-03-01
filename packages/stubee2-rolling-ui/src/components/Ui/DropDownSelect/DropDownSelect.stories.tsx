@@ -4,9 +4,6 @@ import { DropDownSelect } from "./DropDownSelect";
 const meta: Meta<typeof DropDownSelect> = {
   title: "Ui/DropDownSelect",
   component: DropDownSelect,
-  parameters: {
-    layout: "centered",
-  },
   tags: ["autodocs"],
 };
 

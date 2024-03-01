@@ -1,2 +1,2 @@
-export * from "./useCloseModal";
+export * from "./useEscCloseModal";
 export * from "./useAuthTopScroll";

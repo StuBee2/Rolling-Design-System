@@ -4432,7 +4432,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@stubee2/stubee2-rolling-styled-components-util@workspace:packages/stubee2-rolling-styled-components-util":
+"@stubee2/stubee2-rolling-styled-components-util@workspace:*, @stubee2/stubee2-rolling-styled-components-util@workspace:packages/stubee2-rolling-styled-components-util":
   version: 0.0.0-use.local
   resolution: "@stubee2/stubee2-rolling-styled-components-util@workspace:packages/stubee2-rolling-styled-components-util"
   dependencies:
@@ -4501,6 +4501,7 @@ __metadata:
     "@storybook/react": ^7.3.2
     "@storybook/react-webpack5": ^7.3.2
     "@storybook/testing-library": ^0.2.0
+    "@stubee2/stubee2-rolling-styled-components-util": "workspace:*"
     "@types/react": ^18.2.21
     "@types/react-dom": ^18.2.7
     "@types/styled-components": ^5.1.26

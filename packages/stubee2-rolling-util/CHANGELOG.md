@@ -1,5 +1,11 @@
 # @stubee2/stubee2-rolling-util
 
+## 1.3.0
+
+### Minor Changes
+
+- useEscCloseModal 네이밍 수정
+
 ## 1.2.2
 
 ### Patch Changes

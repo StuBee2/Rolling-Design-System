@@ -1,7 +1,7 @@
 {
   "name": "@stubee2/stubee2-rolling-ui",
   "packageManager": "yarn@3.2.4",
-  "version": "3.1.5",
+  "version": "3.2.0",
   "license": "MIT",
   "repository": "https://github.com/StuBee2/Rolling-Design-System",
   "main": "./dist/index.js",
@@ -9,6 +9,7 @@
   "sideEffects": false,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
+    "@stubee2/stubee2-rolling-styled-components-util": "workspace:*",
     "@types/styled-components": "^5.1.26",
     "esbuild-plugin-inline-image": "^0.0.9",
     "react": "^18.2.0",

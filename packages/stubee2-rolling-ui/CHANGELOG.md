@@ -1,5 +1,11 @@
 # @stubee2/stubee2-rolling-ui
 
+## 3.2.0
+
+### Minor Changes
+
+- add flex layout module
+
 ## 3.1.5
 
 ### Patch Changes

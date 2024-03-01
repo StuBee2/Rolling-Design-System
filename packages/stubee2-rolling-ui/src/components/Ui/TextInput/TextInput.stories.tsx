@@ -27,7 +27,7 @@ export const IdTextInput: Story = {
       fontSize: "18px",
     },
     isError: true,
-    errorMessage: "에러가 발생했다.",
+    errorMessage: "에러가 발생했습니다.",
   },
 };
 

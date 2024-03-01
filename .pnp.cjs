@@ -9257,6 +9257,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@storybook/react", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.4.0"],\
             ["@storybook/react-webpack5", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.4.0"],\
             ["@storybook/testing-library", "npm:0.2.0"],\
+            ["@stubee2/stubee2-rolling-styled-components-util", "workspace:packages/stubee2-rolling-styled-components-util"],\
             ["@types/react", "npm:18.2.21"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["@types/styled-components", "npm:5.1.26"],\
